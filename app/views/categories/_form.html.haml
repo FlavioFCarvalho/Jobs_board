@@ -1,0 +1,6 @@
+= simple_form_for(@category, html: { class: 'form-horizontal'}) do |f|
+ 
+  = f.input :name, label: "Category Name", input_html: { class: "form-control" }
+ 
+  %br/
+  = f.button :submit
